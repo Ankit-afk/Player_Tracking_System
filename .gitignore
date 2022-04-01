@@ -1,0 +1,8 @@
+checkpoints/
+*.yml
+*.txt
+*.weights
+deep_sort/images2
+deep_sort/images
+outputs/
+data/video
