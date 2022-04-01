@@ -1,3 +1,15 @@
+# Identifying players in Broadcast sports videos
+
+This repository contains my Third Year project for the University Of Manchester. We are interested in the problem of automatic tracking
+and identification of players in broadcast sport videos shot with a moving camera from a medium distance. I have chosen NBA as my sport for this project but the idea can be extended to any sport.
+
+## Project goal
+
+The project aims to solve this problem by providing a system consisting of 3 components:
+* Player detection system - Using YoloV4
+* Player tracking system - Using DEEP SORT
+* Player identification system - Using a Multi-layer perceptron classifier 
+
 # yolov4-deepsort
 
 Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. YOLOv4 is a state of the art algorithm that uses deep convolutional neural networks to perform object detections. We can take the output of YOLOv4 feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in order to create a highly accurate object tracker.
@@ -117,7 +129,4 @@ save_model.py:
 ```
 
 ### References  
-
-   Huge shoutout goes to hunglc007 and nwojke for creating the backbones of this repository:
-  * [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
-  * [Deep SORT Repository](https://github.com/nwojke/deep_sort)
+The AI Guy is a resource that greatly helped in my understanding of the Yolo framework.
